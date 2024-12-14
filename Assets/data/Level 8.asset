@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb7156bf67a480b4c9a083996cedc79a, type: 3}
+  m_Name: Level 8
+  m_EditorClassIdentifier: 
+  initialCoins: 1100
+  minValueDiff: 10500
+  maxValueDiff: 24000
+  diffCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  waves:
+  - enemies:
+    - {fileID: 778807276127548523, guid: 31025bc32769f21439cb0c35aee3ffd3, type: 3}
+    camins: 00000000010000000200000003000000
+    waveValue: 0
+  - enemies:
+    - {fileID: 778807276127548523, guid: 9e70000c7870f9842bb881210aba2403, type: 3}
+    camins: 0000000001000000
+    waveValue: 0
+  - enemies:
+    - {fileID: 778807276127548523, guid: 31025bc32769f21439cb0c35aee3ffd3, type: 3}
+    - {fileID: 778807276127548523, guid: 9e70000c7870f9842bb881210aba2403, type: 3}
+    camins: 0200000003000000
+    waveValue: 0
+  - enemies:
+    - {fileID: 778807276127548523, guid: 6e45ed3117e74354abe556dd5a0ede4f, type: 3}
+    - {fileID: 778807276127548523, guid: 9e70000c7870f9842bb881210aba2403, type: 3}
+    camins: 00000000010000000200000003000000
+    waveValue: 0
+  - enemies:
+    - {fileID: 778807276127548523, guid: 31025bc32769f21439cb0c35aee3ffd3, type: 3}
+    - {fileID: 778807276127548523, guid: 6e45ed3117e74354abe556dd5a0ede4f, type: 3}
+    - {fileID: 778807276127548523, guid: 47c77be23e1e4824093088ef2392ce1e, type: 3}
+    camins: 00000000010000000200000003000000
+    waveValue: 0
+  - enemies:
+    - {fileID: 778807276127548523, guid: 47c77be23e1e4824093088ef2392ce1e, type: 3}
+    - {fileID: 778807276127548523, guid: 79ed121db71a30b4db26ad5679362969, type: 3}
+    camins: 0200000003000000
+    waveValue: 0
+  - enemies:
+    - {fileID: 778807276127548523, guid: ded3ab44a9e0bec44bab957c4e8e0ba7, type: 3}
+    camins: 0000000001000000
+    waveValue: 0
+  - enemies:
+    - {fileID: 778807276127548523, guid: ded3ab44a9e0bec44bab957c4e8e0ba7, type: 3}
+    camins: 0200000003000000
+    waveValue: 0
+  - enemies:
+    - {fileID: 778807276127548523, guid: ded3ab44a9e0bec44bab957c4e8e0ba7, type: 3}
+    - {fileID: 778807276127548523, guid: 6e45ed3117e74354abe556dd5a0ede4f, type: 3}
+    camins: 00000000010000000200000003000000
+    waveValue: 0
+  - enemies:
+    - {fileID: 778807276127548523, guid: 9e70000c7870f9842bb881210aba2403, type: 3}
+    - {fileID: 778807276127548523, guid: ded3ab44a9e0bec44bab957c4e8e0ba7, type: 3}
+    camins: 0200000003000000
+    waveValue: 0
+  - enemies:
+    - {fileID: 778807276127548523, guid: eb77cffb1bb93fb4b9f4d5a337a7a7d6, type: 3}
+    camins: 0000000001000000
+    waveValue: 0
+  - enemies:
+    - {fileID: 778807276127548523, guid: 6e45ed3117e74354abe556dd5a0ede4f, type: 3}
+    - {fileID: 778807276127548523, guid: 31025bc32769f21439cb0c35aee3ffd3, type: 3}
+    camins: 0000000001000000
+    waveValue: 0
+  - enemies:
+    - {fileID: 778807276127548523, guid: 79ed121db71a30b4db26ad5679362969, type: 3}
+    camins: 0200000003000000
+    waveValue: 0
+  - enemies:
+    - {fileID: 778807276127548523, guid: edd98b97a62b95e44a8b39518e987ae1, type: 3}
+    camins: 00000000010000000200000003000000
+    waveValue: 0
+  - enemies:
+    - {fileID: 778807276127548523, guid: 9e70000c7870f9842bb881210aba2403, type: 3}
+    - {fileID: 778807276127548523, guid: ded3ab44a9e0bec44bab957c4e8e0ba7, type: 3}
+    camins: 0000000001000000
+    waveValue: 0
+  - enemies:
+    - {fileID: 778807276127548523, guid: eb77cffb1bb93fb4b9f4d5a337a7a7d6, type: 3}
+    camins: 00000000010000000200000003000000
+    waveValue: 0
+  - enemies:
+    - {fileID: 778807276127548523, guid: edd98b97a62b95e44a8b39518e987ae1, type: 3}
+    camins: 0000000001000000
+    waveValue: 0
+  - enemies:
+    - {fileID: 778807276127548523, guid: ded3ab44a9e0bec44bab957c4e8e0ba7, type: 3}
+    - {fileID: 778807276127548523, guid: 9e70000c7870f9842bb881210aba2403, type: 3}
+    camins: 0000000001000000
+    waveValue: 0
